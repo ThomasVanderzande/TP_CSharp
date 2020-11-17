@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TP_CSharp
 {
     // Classes fournies par HNI Institut
-    public class Note
+    class Note
     {
         public int matiere { get; private set; }
         public float note { get; private set; }

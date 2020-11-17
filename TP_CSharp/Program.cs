@@ -51,8 +51,8 @@ namespace TP_CSharp
             double cumulMoyennesElevesMatiere = 0;
             foreach (Eleve eleve in eleves)
             {
-                double moyenneEleveMatiere = Convert.ToDouble(eleve.Moyenne(matiere));
-                cumulMoyennesElevesMatiere += moyenneEleveMatiere;
+                    double moyenneEleveMatiere = Convert.ToDouble(eleve.Moyenne(matiere));
+                    cumulMoyennesElevesMatiere += moyenneEleveMatiere;
             }
                 
             double moyenneMatiereClasse = cumulMoyennesElevesMatiere / eleves.Count;

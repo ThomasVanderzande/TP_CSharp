@@ -85,7 +85,7 @@ namespace TP_CSharp
         // Création tableau de notes de l'élève
         private Note[] tabNotes = new Note[200];
 
-        public void ajouterNote(Note note)
+        internal void ajouterNote(Note note)
         {
             notesEleve.Add(note);
             int index = notesEleve.IndexOf(note);
